@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: lightgray;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #b81c2a;
+}
+.nav-logo {
+  position: absolute;
+  left: 15px;
+  color: white;
+}
+.nav-link {
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+}
+.logo-container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 200px;
+}
