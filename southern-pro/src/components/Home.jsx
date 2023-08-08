@@ -18,7 +18,7 @@ const Home = () => {
                         We are Southern Pro Roofing and Construction, specializing in top-tier roof replacements/repairs for both Residential, Multi family homes, and commercial projects. We take pride in servicing our Property Owners by making sure they understand every step, to assure full transparency and trust.
                   </p>
                   <div className='button-container'>
-                        <button className='cover-image-btn'><a href="#contact-form">Contact Us</a></button>
+                        <button className='cover-image-btn'><a href="#contact-form">Request a Quote</a></button>
                   </div>
             </div>
             <Services />

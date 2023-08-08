@@ -20,7 +20,7 @@ body {
 .services h1, .services h2 {
   animation: myAnim 1s ease 0s 1 normal forwards;
 }
-.about-us h1, .about-us h2 {
+h1, h2 {
   animation: myAnim 1s ease 0s 1 normal forwards;
 }
 @keyframes myAnim {
@@ -115,9 +115,9 @@ body {
   color: white;
 }
 .cover-image-btn {
-  font-size: 12px;
+  font-size: 14px;
   color: white;
-  padding: 7px 15px;
+  padding: 10px 20px;
   border-radius: 3px;
   background-color: #b81c2a;
   border: 1px solid #b81c2a;
