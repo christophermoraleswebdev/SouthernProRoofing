@@ -48,11 +48,18 @@ h1, h2 {
 }
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
   padding: 10px;
   background-color: #b81c2a;
   color: white;
   text-align: center;
+}
+.navbar a i {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
 }
 .nav-logo {
   position: absolute;
@@ -243,6 +250,22 @@ h1, h2 {
   color: white;
   border-radius: 3px;
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 30px;
+}
+.social-icons a i {
+  text-decoration: none;
+  color: #b81c2a;
+  margin-bottom: 20px;
+  transition: transform .3 ease;
+}
+.social-icons a i:hover {
+  transform: scale(1.15);
+}
+
 
 /* Footer */
 .footer {

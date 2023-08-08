@@ -16,6 +16,17 @@ const Contact = () => {
             
                         <button className="contact-btn" type="submit">Send</button>
                   </form>
+                  <div className="social-icons">
+                        <a href="https://www.instagram.com/southernproroofingconstruction/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
+                              <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/p/Southern-Pro-Roofing-Construction-100083122932822/" target="_blank">
+                              <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@rollieflores1" target="_blank">
+                              <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                  </div>
             </div>
       )
     }
