@@ -5,14 +5,7 @@ const CustomNav = () => {
   return (
       <div className='hero'>
             <div className='navbar'>
-                  <div className="nav-logo">
-                        Southern Pro Roofing and Construction
-                  </div>
-                  <div className="nav-links">
-                        <Link className='nav-link' to='/'>Home</Link>
-                        <Link className='nav-link' to='/aboutUs'>About Us</Link>
-                        <Link className='nav-link' to='/contactUs'>Contact Us</Link>
-                  </div>
+                  <h2>Built on Trust. </h2>
             </div>
       </div>
   )

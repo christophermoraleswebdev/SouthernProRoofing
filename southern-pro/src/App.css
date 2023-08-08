@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+
 * {
   padding: 0;
   margin: 0;
-
+  font-family: 'Balthazar', serif;
 }
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: white;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero {
   display: flex;
@@ -16,9 +24,11 @@ body {
 }
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 10px;
   background-color: #b81c2a;
+  color: white;
+  text-align: center;
 }
 .nav-logo {
   position: absolute;
@@ -37,7 +47,7 @@ body {
   justify-content: center;
 }
 .logo {
-  width: 200px;
+  width: 220px;
 }
 .cover-image {
   position: relative;
@@ -52,6 +62,7 @@ body {
   background-position: center;
   color: white;
   z-index: 2;
+  width: 100%;
 }
 .cover-image-title {
   font-size: 45px;
@@ -96,6 +107,7 @@ body {
   margin-top: 30px;
   color: #b81c2a;
   text-align: center;
+  margin-bottom: 30px;
 }
 .services-heading {
   color: black;
@@ -113,10 +125,11 @@ body {
   margin-bottom: 10px;
 }
 .service-title {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .service-description {
   color: black;
+  font-size: 18px;
 }
 .grid-item {
   padding: 20px;
@@ -124,6 +137,93 @@ body {
   border: 1px solid #ddd;
   border-radius: 15px;
   height: 250px;
+}
+/* About Us */
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 850px;
+  margin-bottom: 50px;
+}
+.about-us h1 {
+  margin-bottom: 10px;
+}
+.about-us-description {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.about-us p {
+  text-align: center;
+  font-size: 18px;
+}
+.about-us-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+}
+.detail-item i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #b81c2a;
+}
+.detail-item h2 {
+  color: #b81c2a;
+  margin-bottom: 10px;
+}
+/* Contact */
+.contact-container h1 {
+  text-align: center;
+}
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.contact-container form label {
+  color: #b81c2a;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.contact-container form input {
+  margin-bottom: 10px;
+  height: 20px;
+  padding: 5px;
+}
+#message {
+  height: 60px;
+  padding-top: 0;
+}
+.contact-btn {
+  padding: 5px;
+  background-color: #b81c2a;
+  border: #b81c2a;
+  color: white;
+  border-radius: 3px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #b81c2a;
+  width: 100%;
+  color: white;
+}
+#message::placeholder {
+  position: relative;
+  top: -20px;
+  left: 0;
 }
 
 @media (max-width: 800px) {
@@ -142,5 +242,8 @@ body {
   .grid-item {
     max-width: 290px;
     margin: 0 auto;
+  }
+  .contact-container form {
+    width: 300px;
   }
 }
