@@ -7,7 +7,7 @@ const Home = () => {
   return (
       <div className="home-container">
             <div className='logo-container'>
-                  <img className="logo" src="../public/Southern Pro Logo.jpg" alt="" />
+                  <img className="logo" src="https://i.ibb.co/fFVWMHS/Southern-Pro-Logo.jpg"  />
             </div>
             <div className='cover-image'>
                   <h1 className='cover-image-title'>"Built on Trust"</h1>
