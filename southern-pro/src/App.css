@@ -11,6 +11,30 @@ body {
   height: 100%;
   background-color: white;
 }
+.navbar h2 {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.cover-image h1, .cover-image p {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.services h1, .services h2 {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.about-us h1, .about-us h2 {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
@@ -86,6 +110,10 @@ body {
   pointer-events: none;
   z-index: -1;
 }
+.cover-image-btn a {
+  text-decoration: none;
+  color: white;
+}
 .cover-image-btn {
   font-size: 12px;
   color: white;
@@ -96,6 +124,10 @@ body {
   margin: 5px 10px;
   text-transform: uppercase;
 }
+.cover-image-btn a:hover {
+  color: #b81c2a;
+}
+
 .cover-image-btn:hover {
   cursor: pointer;
   color: #b81c2a;

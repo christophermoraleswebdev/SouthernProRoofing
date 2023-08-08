@@ -2,7 +2,7 @@
 
 const Contact = () => {
       return (
-            <div className="contact-container">
+            <div id="contact-form" className="contact-container">
                   <h1>CONTACT US</h1>
                   <form action="https://getform.io/f/e9d423e5-cd28-4b8e-8a1d-c9d6b7e8236c" method="POST">
                         <label htmlFor="name">Name:</label>
