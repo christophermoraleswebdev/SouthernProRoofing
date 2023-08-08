@@ -14,9 +14,6 @@ const CustomNav = () => {
                         <Link className='nav-link' to='/contactUs'>Contact Us</Link>
                   </div>
             </div>
-            <div className='logo-container'>
-                  <img className="logo" src="../public/Southern Pro Logo.jpg" alt="" />
-            </div>
       </div>
   )
 }
