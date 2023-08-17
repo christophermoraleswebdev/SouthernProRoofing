@@ -19,6 +19,7 @@ const Home = () => {
                   </p>
                   <div className='button-container'>
                         <button className='cover-image-btn'><a href="#contact-form">Request a Quote</a></button>
+                        <button className="cover-image-btn"><a href="tel:+19563322778">Contact Us</a></button>
                   </div>
             </div>
             <Services />

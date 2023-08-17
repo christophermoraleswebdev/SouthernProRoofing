@@ -122,9 +122,10 @@ h1, h2 {
   color: white;
 }
 .cover-image-btn {
-  font-size: 14px;
+  font-size: 16px;
+  width: 160px;
   color: white;
-  padding: 10px 20px;
+  padding: 7px 15px;
   border-radius: 3px;
   background-color: #b81c2a;
   border: 1px solid #b81c2a;
@@ -183,7 +184,7 @@ h1, h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 850px;
+  max-width: 950px;
   margin-bottom: 50px;
 }
 .about-us h1 {
