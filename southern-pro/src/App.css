@@ -100,7 +100,7 @@ h1, h2 {
   margin-top: 100px;
 }
 .cover-image-text {
-  font-size: 18px;
+  font-size: 24px;
   max-width: 850px;
   padding: 20px;
   color: lightgray;
@@ -195,7 +195,7 @@ h1, h2 {
 }
 .about-us p {
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
 }
 .about-us-details {
   display: flex;
@@ -226,7 +226,7 @@ h1, h2 {
 .contact-container form {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
   margin-bottom: 30px;
 }
 .contact-container form label {
@@ -299,6 +299,9 @@ h1, h2 {
     margin: 0 auto;
   }
   .contact-container form {
-    width: 300px;
+    width: 320px;
+  }
+  .footer {
+    font-size: 14px;
   }
 }
