@@ -11,6 +11,9 @@ body {
   height: 100%;
   background-color: white;
 }
+h1 {
+  font-size: 45px;
+}
 .navbar h2 {
   animation: myAnim 1s ease 0s 1 normal forwards;
 }
@@ -174,27 +177,27 @@ h1, h2 {
 .grid-item {
   padding: 20px;
   text-align: center;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   height: 250px;
 }
 /* About Us */
 .about-us {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 950px;
   margin-bottom: 50px;
-  background-color: rgb(247, 247, 247);
 }
 .about-us h1 {
   margin-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .about-us-description {
   margin-bottom: 40px;
   padding: 20px;
+  max-width: 950px;
 }
 .about-us p {
   text-align: center;
@@ -214,9 +217,8 @@ h1, h2 {
   width: 250px;
   margin-bottom: 30px;
   border-radius: 10px;
-  background-color: white;
-  border: 1px solid lightgray;
   padding: 20px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 }
 .detail-item i {
   font-size: 50px;
@@ -240,7 +242,7 @@ h1, h2 {
   margin-bottom: 30px;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 }
 .contact-container form label {
   color: #b81c2a;
