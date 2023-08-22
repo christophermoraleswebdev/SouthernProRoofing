@@ -2,6 +2,7 @@ import Services from "./Services";
 import AboutUs from "./AboutUs";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Gallery from "./Gallery";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
                   </div>
             </div>
             <Services />
+            <Gallery />
             <AboutUs />
             <Contact />
             <Footer />
