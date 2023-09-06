@@ -290,6 +290,10 @@ h1, h2 {
   .mySwiper {
     max-width: 360px;
   }
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+    display: none;
+  }
 }
 /* Contact */
 .contact-container h1 {
