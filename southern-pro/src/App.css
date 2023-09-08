@@ -296,19 +296,24 @@ h1, h2 {
   }
 }
 /* Contact */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contact-container h1 {
   text-align: center;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 .contact-container form {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 340px;
+  width: 450px;
   margin-bottom: 30px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
   padding: 30px;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 }
 .contact-container form label {
   color: #b81c2a;
@@ -317,7 +322,7 @@ h1, h2 {
 }
 .contact-container form input {
   margin-bottom: 10px;
-  height: 20px;
+  height: 30px;
   padding: 5px;
 }
 #message {
@@ -325,18 +330,18 @@ h1, h2 {
   padding-top: 0;
 }
 .contact-btn {
+  font-size: 16px;
   padding: 5px;
+  height: 50px;
   background-color: #b81c2a;
   border: #b81c2a;
   color: white;
-  border-radius: 3px;
-  margin-bottom: 30px;
+  border-radius: 5px;
 }
 .contact-btn:hover {
   cursor: pointer;
-  color: #b81c2a;
   background-color: lightgray;
-  border: 1px solid lightgray;
+  color: #b81c2a;
 }
 .social-icons {
   display: flex;
@@ -347,6 +352,7 @@ h1, h2 {
 .social-icons a i {
   text-decoration: none;
   color: #b81c2a;
+  margin-bottom: 20px;
   transition: transform .3 ease;
 }
 .social-icons a i:hover {
