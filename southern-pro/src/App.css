@@ -367,7 +367,7 @@ h1, h2 {
   padding: 10px;
   background-color: #b81c2a;
   color: white;
-  width: 94%;
+  width: 100%;
 }
 #message::placeholder {
   position: relative;
@@ -397,5 +397,6 @@ h1, h2 {
   }
   .footer {
     font-size: 14px;
+    width: 94%;
   }
 }
