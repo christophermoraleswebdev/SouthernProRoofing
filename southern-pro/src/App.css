@@ -160,12 +160,13 @@ h1, h2 {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  padding: 20px;
+  gap: 45px;
+  padding: 30px;
 }
 .icon {
   font-size: 40px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .service-title {
   margin-bottom: 10px;
@@ -175,7 +176,7 @@ h1, h2 {
   font-size: 18px;
 }
 .grid-item {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
@@ -365,8 +366,8 @@ h1, h2 {
   text-align: center;
   padding: 10px;
   background-color: #b81c2a;
-  width: 100%;
   color: white;
+  width: 97.5%;
 }
 #message::placeholder {
   position: relative;
